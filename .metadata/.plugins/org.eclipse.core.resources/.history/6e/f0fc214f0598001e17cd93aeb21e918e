@@ -1,0 +1,17 @@
+package com.package1;
+/**
+ * 
+ * Find the missing number in the list
+ *
+ */
+
+public class Program1 {
+	public static void main(String[] args) {
+		int[] arr= {1,2,3,4,5,7,8,9,10};
+		int n=arr.length;
+		int sumOfSequnce=(n*(n+1))/2;
+		for()
+		
+
+	}
+}

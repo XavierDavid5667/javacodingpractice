@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author xdavid
+ *
+ */
+module JavaCollections {
+}
