@@ -19,5 +19,6 @@ public class BiOperatorExample {
     Integer apply2 = maxBy.apply(4, 5);
     System.out.println("Max "+apply2);
     
+    
 	}
 }
