@@ -2,8 +2,21 @@ package data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.function.Supplier;
 
 public class StudentDatabase {
+	public static Supplier<Student> studentSupplier=()->{
+		Bike bike=new Bike();
+		bike.setModel("2017");
+		bike.setName("FZ900");
+		Student student = new Student("Adam",2,3.6,"male",Arrays.asList("swimming","Talking"));
+		student.setBike(Optional.ofNullable(bike));
+		return student;
+		
+	};
+	
+
 	public static List<Student> getAllStudents(){
 		
 		Student student1=new Student("Adam", 2, 3.6, "male",Arrays.asList("swimming","basketball","volleyball"),11);
@@ -17,5 +30,10 @@ public class StudentDatabase {
 		Student student6=new Student("James", 4, 3.9, "male",Arrays.asList("swimming","basketball","baseball","football"),14);
 		
 		return Arrays.asList(student1,student2,student3,student4,student5,student6);
+	}
+	public static Optional<Student> getOptionalStudent() {
+		// TODO Auto-generated method stub
+		
+		return Optional.ofNullable(studentSupplier.get());
 	}
 }
