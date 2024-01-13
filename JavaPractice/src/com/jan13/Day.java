@@ -1,0 +1,5 @@
+package com.jan13;
+
+public enum Day {
+  MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY
+}
