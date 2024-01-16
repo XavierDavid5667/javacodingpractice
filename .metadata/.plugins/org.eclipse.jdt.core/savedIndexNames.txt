@@ -20,7 +20,6 @@ INDEX VERSION 1.132+C:\Users\XDAVID\Documents\javapractice\.metadata\.plugins\or
 1992002737.index
 2822657574.index
 1035183839.index
-3524882787.index
 2226992936.index
 322748217.index
 3622380878.index
