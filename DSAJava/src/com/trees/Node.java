@@ -8,5 +8,7 @@ public class Node {
 		key=item;
 		left=right=null;
 	}
+	
+
 
 }

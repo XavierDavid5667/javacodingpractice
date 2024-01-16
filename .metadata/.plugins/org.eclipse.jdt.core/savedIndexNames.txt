@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.132+C:\Users\xavie\OneDrive\Documents\javapractice\javacodingpractice\.metadata\.plugins\org.eclipse.jdt.core
 138117994.index
 2750716043.index
@@ -28,3 +29,13 @@ INDEX VERSION 1.132+C:\Users\xavie\OneDrive\Documents\javapractice\javacodingpra
 1593635476.index
 4000865635.index
 3127221302.index
+=======
+INDEX VERSION 1.132+C:\Users\XDAVID\Documents\javapractice\.metadata\.plugins\org.eclipse.jdt.core
+2822657574.index
+1607421755.index
+2750716043.index
+1865797976.index
+3622380878.index
+2226992936.index
+3322607066.index
+>>>>>>> da7c3b41eb0797977322c3e41ff8b6915ba72a6a
