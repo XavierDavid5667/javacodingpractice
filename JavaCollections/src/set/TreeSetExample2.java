@@ -32,8 +32,8 @@ public class TreeSetExample2 {
         persons.add(new Person("Bob", 30));
         persons.add(new Person("Charlie", 20));
         
-        Person floorPerson = persons.floor(new Person("", 28));
-        Person ceilingPerson = persons.ceiling(new Person("", 28));
+        Person floorPerson = persons.floor(new Person("Xavier", 28));
+        Person ceilingPerson = persons.ceiling(new Person("David", 28));
 
         System.out.println("Floor Person: " + floorPerson);     // Output: Bob (Age: 30)
         System.out.println("Ceiling Person: " + ceilingPerson); // Output: Alice (Age: 25)
