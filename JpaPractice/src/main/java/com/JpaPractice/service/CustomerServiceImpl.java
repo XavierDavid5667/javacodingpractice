@@ -16,9 +16,9 @@ public class CustomerServiceImpl implements CustomerService{
 		return customerDAO.createCustomer(customer);
 	}
 	@Override
-	public Customer retrieveCustomer(Customer customer) {
+	public Customer retrieveCustomer(Integer customerId) {
 		// TODO Auto-generated method stub
-		return customerDAO.retrieveProduct(customer.getId());
+		return customerDAO.retrieveCustomer(customerId);
 	}
 	@Override
 	public void updateCustomer(Customer customer) {

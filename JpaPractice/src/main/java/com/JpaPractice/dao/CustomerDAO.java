@@ -9,7 +9,7 @@ public interface CustomerDAO {
 
 	public Customer updateCustomer(Customer customer);
 
-	public Customer retrieveProduct(Integer productId);
+	public Customer retrieveCustomer(Integer customerId);
 
 	// Retrieve All customers
 	public List<Customer> getCustomers();

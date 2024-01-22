@@ -8,9 +8,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
 
 
 @Entity
+@Table(name="customer_details")
 public class Customer {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -52,6 +54,11 @@ public class Customer {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", dateOfBirth=" + dateOfBirth + ", address=" + address + "]";
 	}
 	
 	

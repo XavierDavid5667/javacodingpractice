@@ -7,7 +7,7 @@ public interface CustomerService {
 	
 	public Customer createCustomer(Customer customer);
 
-	public Customer retrieveCustomer(Customer customer);
+	public Customer retrieveCustomer(Integer customerId);
 
 	// Using merge method
 	public void updateCustomer(Customer customer);
