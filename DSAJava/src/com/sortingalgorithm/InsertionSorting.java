@@ -1,6 +1,7 @@
 package com.sortingalgorithm;
 
 public class InsertionSorting {
+
 	
 	void sort(int[] arr) {
 		for(int i=1;i<arr.length;i++) {
@@ -13,12 +14,13 @@ public class InsertionSorting {
 			}
 		}
 	}
+	
 	 static void printArray(int[] arr) {
 		 for(int i:arr) {
 			 System.out.print(i+" ");
 		 }
 	 }
-	
+	 
 	public static void main(String[] args) {
      InsertionSorting insertionSorting=new InsertionSorting();
      int[] arr= {5,2,3,1,4};
